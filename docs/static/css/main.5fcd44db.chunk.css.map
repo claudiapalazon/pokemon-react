@@ -1,1 +1,0 @@
-{"version":3,"sources":["webpack://src/stylesheets/App.scss"],"names":[],"mappings":"AAAA,EACE,qBAAsB","file":"main.5fcd44db.chunk.css","sourcesContent":["* {\n  background-color: aqua;\n}\n"]}
