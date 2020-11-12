@@ -4,7 +4,6 @@ import PropTypes from "prop-types";
 
 class Pokemon extends React.Component {
   render() {
-    console.log(this.props.pokemon);
     const typesList = this.props.pokemon.types.map((type, index) => {
       return (
         <li key={index} className="pokeType">
@@ -13,10 +12,14 @@ class Pokemon extends React.Component {
       );
     });
     return (
-      <section>
-        <img src={this.props.pokemon.url} alt={this.props.pokemon.name} />
-        <h2>{this.props.pokemon.name}</h2>
-        <ul>{typesList}</ul>
+      <section className="pokeCard--sec">
+        <img
+          className="pokeImg"
+          src={this.props.pokemon.url}
+          alt={this.props.pokemon.name}
+        />
+        <h2 className="pokeName">{this.props.pokemon.name}</h2>
+        <ul className="typeList">{typesList}</ul>
       </section>
     );
   }

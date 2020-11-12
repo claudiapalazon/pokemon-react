@@ -13,9 +13,9 @@ class PokeList extends React.Component {
       );
     });
     return (
-      <main>
+      <main className="main">
         <h1>Mi lista de pokemon</h1>
-        <ul>{pokeList}</ul>
+        <ul className="pokeList">{pokeList}</ul>
       </main>
     );
   }

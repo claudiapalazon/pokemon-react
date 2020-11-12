@@ -1,0 +1,17 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.pokeList {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-gap: 20px;
+  list-style: none;
+}
+.pokeCard {
+  border: solid 2px red;
+  width: 150px;
+  border-radius: 5%;
+}

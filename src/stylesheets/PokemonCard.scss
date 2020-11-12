@@ -1,0 +1,37 @@
+.pokeCard--sec {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.pokeImg {
+  padding-top: 5px;
+}
+
+.pokeName {
+  width: 100%;
+  text-align: center;
+  padding: 5px 0 5px 0;
+  font-size: 20px;
+  border-top: 2px solid red;
+  border-bottom: 2px solid red;
+}
+
+.typeList {
+  margin-bottom: 10px;
+  margin-top: -10px;
+  padding: 0;
+  width: 100%;
+  list-style: none;
+  display: flex;
+}
+.pokeType {
+  color: white;
+  line-height: 10px;
+  font-size: 10px;
+  margin-left: 10px;
+  background-color: grey;
+  padding: 5px;
+  border-radius: 2px;
+}
